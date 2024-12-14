@@ -39,7 +39,6 @@ Exemplo:
 
 print('\n---------> Analisador de notas\n')
 
-
 # coletando o numero de alunos da turma
 while True:
     try:
@@ -82,4 +81,3 @@ print(f'Menor nota: {menor_nota:.2f}')
 print(f'Média da turma: {media:.2f}')
 print(f'Alunos acima da média: {alunos_acima_da_media}')
 print('')
-
