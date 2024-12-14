@@ -24,5 +24,5 @@ Ideal para:
 ## 🚀 **Como Usar**
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/python-exercises.git
+   git clone https://github.com/andersonnb6/python-exercises.git
    cd python-exercises
