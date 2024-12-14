@@ -37,6 +37,9 @@ Exemplo:
     - Python 3.10 ou superior
 """
 
+print('\n---------> Analisador de notas\n')
+
+
 # coletando o numero de alunos da turma
 while True:
     try:
@@ -72,7 +75,7 @@ for nota in notas:
        alunos_acima_da_media += 1
 
 # Mostrando resultados
-print('\n---------| Resultados |---------\n')
+print('\n---------> Resultados\n')
 print(f"Notas inseridas: {notas}")
 print(f'Maior nota: {maior_nota:.2f}')
 print(f'Menor nota: {menor_nota:.2f}')
