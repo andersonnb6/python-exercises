@@ -17,8 +17,7 @@ Ideal para:
 ---
 
 ## 📂 **Estrutura**
-- **📄 Questões**: Explicação detalhada do problema e exemplos de entrada e saída.
-- **💡 Soluções**: Arquivos `.py` com as soluções prontas para execução.
+- **📄 Questões**: Arquivos `.py` contendo uma explicação detalhada do problema no cabeçalho, seguida pela resolução completa.
 
 ---
 
