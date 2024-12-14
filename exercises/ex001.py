@@ -37,10 +37,6 @@ Exemplo:
     - Python 3.10 ou superior
 """
 
-# Analisador de notas
-import os
-os.system('cls')
-
 # coletando o numero de alunos da turma
 while True:
     try:
