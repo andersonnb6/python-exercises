@@ -1,3 +1,49 @@
+"""
+Título: Controle de Estoque
+Descrição:
+    Um programa interativo para gerenciar o estoque de uma loja ou armazém. 
+    Permite adicionar produtos, atualizar suas quantidades, removê-los e listar os itens no estoque.
+
+Objetivo:
+    - Praticar estruturas de controle, como loops e condicionais.
+    - Trabalhar com dicionários para armazenar dados.
+    - Validar entradas do usuário para garantir dados corretos.
+    - Desenvolver uma interface de linha de comando para interação com o usuário.
+
+Entrada:
+    - Nome do produto (string).
+    - Quantidade do produto (número inteiro).
+
+Saída:
+    - Mensagens de confirmação para cada operação.
+    - Lista de produtos no estoque com suas respectivas quantidades.
+
+Exemplo:
+    --- Controle de Estoque ---
+    1. Adicionar Produto
+    2. Atualizar Quantidade
+    3. Remover Produto
+    4. Listar Produtos
+    5. Sair
+
+    Escolha uma opção: 1
+    
+    Digite o nome do produto: Caneta
+    Informe a quantidade do produto: 50
+
+    Produto cadastrado com sucesso!
+
+    Escolha uma opção: 4
+
+    ---------| Estoque Atual |---------
+    Qtd       Produto
+    50        Caneta
+
+Requisitos:
+    - Python 3.10 ou superior
+"""
+
+
 # importando bibliotecas
 import os
 
