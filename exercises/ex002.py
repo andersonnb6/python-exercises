@@ -1,3 +1,4 @@
+# importando bibliotecas
 import os
 
 # dicionario para armazenar produtos e quantidades
@@ -9,7 +10,7 @@ opcao = 0
 while opcao != 5:
     try:
         # menu do programa
-        os.system('clear')
+        os.system('cls' if os.name == 'nt' else 'clear')
         print('')
         print('--- Controle de Estoque ---\n')
         print('1. Adicionar Produto')
@@ -20,7 +21,7 @@ while opcao != 5:
         opcao = int(input('\nEscolha uma opção: '))
 
         if 1 <= opcao <= 5:
-            os.system('clear')
+            os.system('cls' if os.name == 'nt' else 'clear')
 
             if opcao == 1:
                 novo_produto = input('\nDigite o nome do produto: ').lower()
@@ -33,7 +34,7 @@ while opcao != 5:
                         try:
                             qtd_novo_produto = int(input('Informe a quantidade do produto: '))
                             estoque[novo_produto] = qtd_novo_produto
-                            os.system('clear')
+                            os.system('cls' if os.name == 'nt' else 'clear')
                             print('\nProduto cadastrado com sucesso!')
                             input('\nPressione <ENTER> para voltar ao menu principal.')
                             break
@@ -41,7 +42,7 @@ while opcao != 5:
                             print('\nPor favor, informe um número inteiro!')
 
             elif opcao == 2:
-                produto = input('\nInforme o produto que dejesa atualizar: ').lower()
+                produto = input('\nInforme o produto que deseja atualizar: ').lower()
                 
                 while True: 
                     if produto in estoque:
@@ -59,7 +60,7 @@ while opcao != 5:
                             break
 
             elif opcao == 3:
-                produto = input('\nInforme o produto que dejesa remover: ').lower()
+                produto = input('\nInforme o produto que deseja remover: ').lower()
 
                 if produto in estoque:
                     estoque.pop(produto)
@@ -79,7 +80,7 @@ while opcao != 5:
         else:
             print('\nOpção Inválida!!')
             input('\nPressione <ENTER> para tentar novamente.')
-    except:
+    except ValueError:
         print('\nOpção Inválida!!')
         input('\nPressione <ENTER> para tentar novamente.')
 
