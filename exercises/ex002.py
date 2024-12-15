@@ -43,23 +43,6 @@ Requisitos:
     - Python 3.10 ou superior
 """
 
-# -*- coding: utf-8 -*-
-"""
-Controle de Estoque
-
-Este script implementa um sistema simples de controle de estoque em Python, 
-permitindo adicionar, atualizar, remover e listar produtos.
-
-Funcionalidades:
-1. Adicionar Produto
-2. Atualizar Quantidade
-3. Remover Produto
-4. Listar Produtos
-
-Autor: Anderson Nogueira Barbosa
-Data: 2024-12-14
-"""
-
 # Importando bibliotecas
 import os  # Usada para limpar a tela no terminal
 
